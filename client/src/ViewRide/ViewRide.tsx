@@ -13,7 +13,7 @@ const EditTechnology = ({rides,onResponse,onError,RETREIVE_SCRIPT,setLoading}:Vi
     let ride:(Ride | undefined) = rides.find(item => item._id === id);
 
     //const COMMENT_SCRIPT_RIDES:string = "http://localhost/commentRide";
-    const COMMENT_SCRIPT_RIDES:string = "/commentRide";
+    const COMMENT_SCRIPT_RIDES:string = '/commentRide';
 
     const [comment, setComment] = React.useState("");
     const [author, setAuthor] = React.useState("");

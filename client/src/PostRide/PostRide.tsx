@@ -17,7 +17,7 @@ import {
 const PostRide = ({rides,onResponse,onError,RETREIVE_SCRIPT,setLoading}:PostRideComponentProps) => {
 
     //const POST_SCRIPT_RIDES:string = "http://localhost/postRide";
-    const POST_SCRIPT_RIDES:string = "/postRide";
+    const POST_SCRIPT_RIDES:string = '/postRide';
 
 
     const center = { lat: 48.8584, lng: 2.2945 }
