@@ -68,7 +68,6 @@ function App() {
           element={<List rides={rides}/>}
         />
 
-
         <Route
         // using route parameter
           path="/postRide"
