@@ -1,19 +1,11 @@
-# Boilerplate for PROG3017 Full Stack Programming with Express Server and MongoDB
+#RideShare
+This is a ride-sharing web application built using the MERN (MongoDB, Express, React, Node.js) stack. It allows drivers and passengers to connect and share rides, with a focus on ease of use and flexibility.
 
-This project folder contains the React client side and the Express Server side with MondoDB
+##Finding a Ride
+To find a ride on RideShare, simply enter your starting location and destination, along with the date and time you'd like to travel. RideShare will show you a list of available rides that match your criteria, along with information about the driver, their contact, number of seats, and the price of the ride. 
 
-## Available Scripts
+##Posting a Ride Offer
+If you're a driver, you can post a ride offer on RideShare and set your own price for the ride. You can specify the starting location, destination, and departure time, as well as any other relevant details such as number of seats, recurrence, price, smoking avaliabilty. Everyone can then respond to the posts to join the ride.
 
-In the project directory, run command:
-
-### `docker-compose up --build`
-
-Builds Docker images
-Spins up the container that runs the local server (React web app)
-Spins up the container that runs the Express server (running on Node.js)
-Spins up the container that runs the MongoDB server
-
-### `docker compose -f docker-compose-prod.yml up --build`
-Builds docker container images for production build
-Spins up the container that runs the Express server (running on Node.js) that handles the API requests as well as serves the client side's index.html
-Spins up the container that runs the MongoDB server
+##Authors
+This application was developed by Jenny Ngi as a personal project.
