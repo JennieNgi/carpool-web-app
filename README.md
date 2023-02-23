@@ -1,6 +1,8 @@
 # RideShare
 This is a ride-sharing web application built using the MERN (MongoDB, Express, React, Node.js) stack. It allows drivers and passengers to connect and share rides, with a focus on ease of use and flexibility.
 
+DEMO: http://ec2-52-87-234-246.compute-1.amazonaws.com/
+
 ## Finding a Ride
 To find a ride on RideShare, simply enter your starting location and destination, along with the date and time you'd like to travel. RideShare will show you a list of available rides that match your criteria, along with information about the driver, their contact, number of seats, and the price of the ride. 
 
